@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #3c96ed;
+}
+body{
+    background: #fafafa;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/*como o wrapper engloba todo mundo ele tem altura inteira da tela*/
+#wrapper{
+    height: 100vh;
+}
+
+#container{
+    margin: 0 auto; /*centralizando o conteudo*/
+    min-height: 100%;
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+.column{
+    /*aqui é basicamente as duas colunas tentarem disputar os mesmo espaços, sendo cada coluna obtendo 50% de tamanho*/
+    flex-grow: 1;
+    width: 50%;
+}
+.left{
+    background-image: url("assets/main-foto.png");
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    margin-bottom: 50px;
+}
+.right{
+    padding-left: 20px;
+    
+}
