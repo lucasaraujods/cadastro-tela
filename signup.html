@@ -4,35 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Tela de cadastro</title>
+    <title>Faça seu cadastro -Sujeitogram</title>
 </head>
 <body>
     <!--area wrapper, ou seja é  área que ta por volta de todo o nosso site-->
     <div id="wrapper">
         <!--area container-->
-        <div id="container">
-            <!--area esquerda-->
-            <div class="column left">
-                <div class="main"></div>
-            </div>
-            <!--fim da area esquerda-->
-
+        <div id="container-signup">
+            
             <!--area direita-->
             <div class="column right">
                 <div class="login-painel">
                     <div class="logo">
                         <img class= "logo-img" src="assets/logo.png" alt="logo do instagram">
                     </div>
+                    <div class="message">
+                        <span>Cadastre-se para ver fotos e vídeos de seus amigos</span>
+                    </div>
+                    
+                    <button class="cta-button">
+                        Entrar com Facebook
+                    </button>
 
                     <form action="">
-                        <input type="text" placeholder="telefone, usuario ou email" name="username">
+                        <input type="text" placeholder="telefone ou email" name="username">
+                        <input type="text" placeholder="nome completo" name="nome">
+                        <input type="text" placeholder="nome usuário" name="username">
                         <input type="password" placeholder="senha" name="password">
                         <input type="submit" value="Entrar">
                     </form>
                 </div>
 
                 <div class="infobox">
-                   <p>Não possui uma conta? <a href="signup.html"> Cadastra-se</a></p>
+                   <p>Possui conta? <a href="index.html"> Login</a></p>
                 </div>
 
                 <div class="get-app-panel">
